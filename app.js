@@ -12,7 +12,7 @@ angular.module('LunchChecker', [])
 	if(totalItems==0){
 		message="Please enter some input";
 	}
-	else if(totalItems<=3){
+	else if(totalItems<3){
 		message="Enjoy!";
 	}
 	else{
